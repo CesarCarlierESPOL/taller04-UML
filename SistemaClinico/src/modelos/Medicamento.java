@@ -5,10 +5,22 @@
  */
 package modelos;
 
+import java.util.Date;
+
 /**
  *
  * @author LEGION
  */
 public class Medicamento {
+    protected String medicina,dosis,observaciones,unidad;
+    protected int cantidadTotal;
+
+    public Medicamento(String medicina, String dosis, String observaciones, String unidad, int cantidadTotal) {
+        this.medicina = medicina;
+        this.dosis = dosis;
+        this.observaciones = observaciones;
+        this.unidad = unidad;
+        this.cantidadTotal = cantidadTotal;
+    }
     
 }

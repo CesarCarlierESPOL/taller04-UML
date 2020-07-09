@@ -10,5 +10,10 @@ package modelos;
  * @author LEGION
  */
 public class PlanNutricional {
+    protected String descripcion;
+
+    public PlanNutricional(String descripcion) {
+        this.descripcion = descripcion;
+    }
     
 }

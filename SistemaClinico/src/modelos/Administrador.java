@@ -5,10 +5,24 @@
  */
 package modelos;
 
+import java.util.Date;
+
 /**
  *
  * @author LEGION
  */
-public class Administrador {
+public class Administrador extends Persona{
+
+    public Administrador(String usuario, String clave, String nombre, String apellido, String cedula, String direccion, Date fechaNac, Administrador registradoPor) {
+        super(usuario, clave, nombre, apellido, cedula, direccion, fechaNac, registradoPor);
+    }
+
     
+    public void registraUsuario(){
+        
+    }
+    
+    public void asignarRol(Persona persona){
+    
+    }
 }
