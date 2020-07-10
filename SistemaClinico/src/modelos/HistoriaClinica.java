@@ -5,10 +5,15 @@
  */
 package modelos;
 
+import java.util.ArrayList;
+
 /**
  *
- * @author LEGION
+ * @author LEGION, eacarras
  */
-public class HistoriaClinica {
-    
+public class HistoriaClinica extends Paciente {
+    protected int nro;
+    protected ArrayList<String> enfermedades;
+    protected ArrayList<String> alergias;
+    protected ArrayList<String> otros;
 }

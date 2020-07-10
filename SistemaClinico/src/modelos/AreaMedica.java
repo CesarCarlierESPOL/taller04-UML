@@ -7,8 +7,9 @@ package modelos;
 
 /**
  *
- * @author LEGION
+ * @author LEGION, eacarras
  */
 public class AreaMedica {
-    
+    protected String especialidad;
+    protected float costo;
 }

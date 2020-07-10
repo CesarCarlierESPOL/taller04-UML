@@ -14,6 +14,7 @@ import java.util.Date;
  */
 public class Doctor extends Persona{
     protected int regDoctor;
+    protected AreaMedica areaMedica;
     protected String especialidad;
     protected ArrayList<AreaMedica> areas;
     protected ArrayList<Cita> citasPendientes;

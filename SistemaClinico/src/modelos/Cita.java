@@ -5,10 +5,18 @@
  */
 package modelos;
 
+import java.time.LocalDateTime;
+
 /**
  *
- * @author LEGION
+ * @author LEGION, eacarras
  */
 public class Cita {
+    protected LocalDateTime fecha;
+    protected boolean pagada;
+    protected String registradoPor;
     
+    public void realizarPago(Pago pago) {
+        
+    }
 }

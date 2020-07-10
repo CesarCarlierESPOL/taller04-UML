@@ -7,8 +7,8 @@ package modelos;
 
 /**
  *
- * @author LEGION
+ * @author LEGION, eacarras
  */
 public interface Pago {
-    
+    public boolean realizarPago(float monto);
 }

@@ -10,5 +10,11 @@ package modelos;
  * @author LEGION
  */
 public class PagoPayPal implements Pago{
+    protected float monto;
+    protected String email;
     
+    @Override
+    public boolean realizarPago(float monto) {
+        return false;
+    }
 }

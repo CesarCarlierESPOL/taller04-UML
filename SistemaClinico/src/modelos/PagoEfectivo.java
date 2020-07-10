@@ -10,5 +10,10 @@ package modelos;
  * @author LEGION
  */
 public class PagoEfectivo implements Pago{
+    protected float monto;
     
+    @Override
+    public boolean realizarPago(float monto) {
+        return false;
+    }
 }
